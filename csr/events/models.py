@@ -5,7 +5,7 @@ class Event(models.Model):
     event_name = models.CharField(max_length=100)
     event_description = models.CharField(max_length=1000)
     organizer_id = models.IntegerField()
-    nof_participants = models.IntegerField(max_length=6)
+    nof_participants = models.IntegerField()
     # criteria = []
     start_date_reg = models.DateTimeField() 
     end_date_reg = models.DateTimeField()
