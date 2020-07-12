@@ -13,7 +13,8 @@ export class Alerts extends Component {
     componentDidUpdate(prevProps) {
         const { error, alert } = this.props;
         if (error !== prevProps.error) {
-            if (error.msg.name) alert.error("NAME is require")
+            if (error.msg.name) alert.error(`Name: 
+                ${error.msg.name.join()}`);
         }
     }
 
