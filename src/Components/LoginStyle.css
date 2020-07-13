@@ -1,0 +1,48 @@
+.BorderCss
+{
+  display:inline-block;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  border: 2px solid ;
+  border-radius: 20px; 
+  width: 500px;
+  height:500px;
+}
+.Border2
+{
+  display:inline-block;
+  padding-bottom: 50px;
+  border: 1px solid ;
+  border-radius: 14px; 
+  width: 420px;
+  height:302px;
+}
+#ip_user,#ip_pwd
+{
+ width:300px;
+ height: 30px;
+ /*adds circular ends to the input field*/
+ border-radius: 6px; 
+}
+#btn_login,#btn_signup
+{
+  border-radius: 6px;
+  background-color: lightgreen;
+  height: 45px;
+  width: 300px;
+  font-size: x-large;
+}
+#lbl_user,#lbl_pwd{
+  padding-top: 5px;
+  text-align: left;
+  /*all the input fields get aligned in one line*/
+  display:inline-block;
+  padding-bottom: 10px;
+  font-size: x-large;
+}
+img{
+  padding-top:5px;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
