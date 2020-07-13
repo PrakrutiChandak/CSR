@@ -4,7 +4,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --watch ./csr/frontend/src/index.js --output ./csr/frontend/static/frontend/main.js"
-    // "build": "webpack --mode production ./csr/frontend/src/index.js --output ./csr/frontend/static/frontend/main.js"
   },
   "repository": {
     "type": "git",
