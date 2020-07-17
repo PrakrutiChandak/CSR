@@ -1,1 +1,1 @@
-web:gunicorn csr.wsgi --log-file -
+web: python csr/manage.py runserver 0.0.0.0$PORT
