@@ -1,0 +1,90 @@
+.Report_Gen_css
+{
+    display: inline-block;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border: 2px solid ;
+    border-radius: 20px; 
+    width: 500px;
+    height:240px;
+}
+label{
+  width:220px;
+  padding-right:8px;
+  /*all the input fields get aligned in one line*/
+  display: inline-block;
+  text-align:right;
+  font-size:22px;
+}
+input
+{
+ width:300px;
+ height: 30px;
+ /*adds circular ends to the input field*/
+ border-radius: 6px; 
+}
+#btnOrgAcc,#pubNInvite,#btnEmpReg
+{
+  border-radius: 6px;
+  background-color:purple;
+  color: white;
+  height: 45px;
+  width:300px;
+  max-width: inherit;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-left: 150px;
+  margin-bottom: 2px;
+}
+#btnOrgAcc,#pubNInvite,#btnEmpReg:hover
+{
+  background-color: rgb(173, 28, 173);
+}
+.OrgRegCss
+{
+  display:inline-block;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  /*border: 2px solid ;*/
+  border-radius: 20px; 
+  width: 570px;
+  height:380px;
+}
+
+#validation
+{
+  color:red;
+  font-size: 14px;
+  margin-left: 200px;
+
+}
+#genderRadioBtn_M,#genderRadioBtn_F,#genderRadioBtn_O
+{
+  width:25px;
+  padding-right:5px;
+  display: inline-block;
+  align-self:left;
+}
+#lblGender
+{
+  width:3px;
+  padding-right:65px;
+  margin-left: 5px;
+  text-align: left;
+  height:10px;
+  font-size: 20px;
+}
+.EmpRegContainer
+{
+  display:inline-block;
+  align-items: center;
+}
+#headEmpReg
+{
+ margin-left: 110px;
+color:rgb(202, 30, 202)
+}
+#loginMsg
+{
+  margin-left: 180px;
+}
