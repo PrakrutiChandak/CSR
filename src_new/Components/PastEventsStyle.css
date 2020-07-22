@@ -1,0 +1,30 @@
+#slideImg
+{
+  width:100%;
+  position: absolute;
+  box-shadow: 30px 30px 15px #B19CD9;
+  padding-bottom: 10px;
+}
+.slideContain
+{
+  margin-top:20px;
+  width:auto;
+  height:100px;
+  bottom: 0;
+ align-items:center;
+ display: flex;
+ margin: 0;
+}
+#slideCaption
+{
+  padding-top: 10px;
+  text-align: center;
+}
+#EventDescPara
+{
+    margin-left: 20px;
+}
+#headEvent
+{
+    font-size:larger;
+}

@@ -1,0 +1,49 @@
+
+.MainProfContainer
+{
+padding-left: 150px;
+  position: absolute;
+    align-items: center;
+}
+.DivContainer
+{
+    display:inline-block;
+    margin: 10px;
+    border:1px solid #ccc;
+    width:260px;
+    height: 200px;
+    padding:10px;
+    box-shadow: 10px 10px 15px #A9A9A9;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.ProfImg
+{
+    border: purple;
+    width: 140px;
+    height:140px;
+    padding:8px;
+    padding-left:65px;
+    
+}
+#ProfBtn
+{
+    color: white;
+  border-radius: 6px;
+  background-color:purple;
+  height: 45px;
+  width: 255px;
+  font-size:large;
+  box-shadow: 10px 10px 5px #ccc;
+}
+#ProfBtn:hover
+{
+  background-color: rgb(173, 28, 173);
+}
+#headProfile
+{
+  /*margin-left:40%;*/
+  display:flex;
+  color:rgb(202, 30, 202)
+}
