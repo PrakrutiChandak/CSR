@@ -4,8 +4,16 @@ from .serializers import EventSerializer
 
 #Event Viewset
 class EventViewSet(viewsets.ModelViewSet):
-    queryset = Event.objects.all()
     permission_classes = [
-        permissions.AllowAny
+        permissions.IsAuthenticated
+
     ]
+
     serializer_class = EventSerializer
+    
+    def get_queryset(self):
+        return self.request.user.events.all()
+
+    def perform_create(self, serializer):
+        serializer.save(organizer_id=self.request.user)
+    
