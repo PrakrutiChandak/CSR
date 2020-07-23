@@ -5,8 +5,10 @@
   padding-top: 30px;
   border: 2px solid ;
   border-radius: 20px; 
-  width: 500px;
-  height:500px;
+  padding-left: 22px;
+  width: 450px;
+  height:490px;
+  margin-left: 50px;
 }
 .Border2
 {
@@ -16,6 +18,8 @@
   border-radius: 14px; 
   width: 420px;
   height:302px;
+  padding-left:4px;
+  padding-top: 10px;
 }
 #ip_user,#ip_pwd
 {
@@ -23,14 +27,18 @@
  height: 30px;
  /*adds circular ends to the input field*/
  border-radius: 6px; 
+ margin-left: 60px;
 }
 #btn_login,#btn_signup
 {
+  color: white;
   border-radius: 6px;
-  background-color: lightgreen;
+  background-color:purple;
   height: 45px;
   width: 300px;
   font-size: x-large;
+  margin-left: 60px;
+  box-shadow: 10px 10px 5px #ccc;
 }
 #lbl_user,#lbl_pwd{
   padding-top: 5px;
@@ -39,10 +47,37 @@
   display:inline-block;
   padding-bottom: 10px;
   font-size: x-large;
+  margin-left: 60px;
 }
 img{
-  padding-top:5px;
+  padding-left: 130px;
   width: 150px;
   height: 150px;
   display: inline-block;
+}
+#validation_login
+{
+  color:red;
+  font-size: 14px;
+  margin-left: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#headLogin
+{
+  margin-left: 210px;
+  color:rgb(202, 30, 202)
+}
+.LoginContainer
+{
+  display: flex;
+  align-items: center;
+}
+#btn_signup:hover
+{
+  background-color: rgb(173, 28, 173);
+}
+#btn_login:hover
+{
+  background-color: rgb(173, 28, 173);
 }

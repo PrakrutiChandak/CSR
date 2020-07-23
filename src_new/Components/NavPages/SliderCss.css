@@ -1,0 +1,28 @@
+#slideImg
+{
+  width:90%;
+  height: 400px;
+  position: relative;
+  box-shadow: 30px 30px 15px #B19CD9;
+  padding-bottom: 10px;
+  padding-top:40px;
+}
+.slideContain
+{
+  margin-top:auto;
+  width:auto;
+  height:auto;
+  bottom: 0;
+ align-items:center;
+ display: flex;
+ margin: 0;
+}
+#slideCaption
+{
+  padding-top: 50px;
+  text-align: center;
+}
+#Notice
+{
+  color: red;
+}

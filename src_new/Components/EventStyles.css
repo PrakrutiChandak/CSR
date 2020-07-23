@@ -1,0 +1,37 @@
+p{
+   display:inline-block;
+   text-align: left;
+   /*text aligned to left*/
+   font-size: large;
+}
+.Event1RegCss
+{
+  display:flex;
+ 
+}
+#para_E1Reg
+{
+  font-size:25px;
+  text-align: left;
+   display: inline-block;
+   margin-left: 50px;
+}
+.AboutStyle
+{
+  margin-left: 20px;
+}
+#RegEvent
+{
+  border-radius: 6px;
+  background-color:purple;
+  color: white;
+  height: 45px;
+  width:300px;
+  font-size: 20px;
+  margin-left: 4px;
+  margin-bottom: 2px;
+}
+#RegEvent:hover
+{
+  background-color: rgb(173, 28, 173);
+}
